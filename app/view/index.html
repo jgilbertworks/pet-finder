@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script type="text/javascript" src="/keys.js"></script>
+    <title>Homepage</title>
+    
+    <link rel="stylesheet" type="text/css" href="/style.css">
+    
+</head>
+
+<body>
+    <!-- WRAPPER OF ALL CONTAINERS -->
+    <section class="wrapper-containers">
+
+        <!-- LOGO -->
+        <header class="con-header">
+            <h1>Lost&Hound</h1>
+        </header>
+
+        <!-- NAVIGATION BAR CONTAINER -->
+        <nav class="con-nav">
+            <section></section>
+      
+            <!--empty left side nav section -->
+            <section><a href="/">Home</a></section>
+            <section><a href="/reportlost">Report Lost Pet</a></section>
+            <section><a href="/reportfound">Report Found Pet</a></section>
+            <section><a href="/viewlost">View Lost Pets</a></section>
+            <section><a href="/viewfound">View Found Pets</a></section>
+
+            <section></section>
+            <!--empty right side nav section -->
+
+        </nav>
+
+        <!-- ADS CONTAINER -->
+        <section class="con-ads">
+            <section class="mission">
+                <h1>Our Goal</h1>
+                <p>Provide a platform to network and share information about lost and found pets</p>
+                <h1>Our Mission</h1>
+                <p>
+                    We believe in people power.
+                    Together we can create a great network.
+                    Great networking leads to solving complex issues.
+                    One of these issues is to find and reconnect people with their lost beloved pets.
+                    So, join Us, Lost & Hound, and help each other accomplish our mission.
+                </p>
+            </section>
+            <!--slideshow.js app running inside this container-->
+            <section class="diplay-imgs"></section>
+        </section>
+
+
+        <!--  CONTENT CONTAINER - THE MAP APP GOES HERE -->
+        <section class="con-content" id="map" style="width: 100%; height: 530px;">
+            
+        </section>
+
+        <!-- DEVELOPERS CONTAINERS -->
+        <section class="con-developers">
+            <section class="farkhod">
+                <section><img src="../../devportfolio/farkhod.jpg" width="100px" height="100px" alt=""></section>
+                <section>
+                    <h3>Farkhod I.</h3>
+                    <h5>Role: Front-End</h5>
+                    <h5>Component: Home page & Slide Show</h5>
+                </section>
+            </section>
+
+            <section class="fredrick">
+                <section><img src="../../devportfolio/fredrick.jpg" width="100px" height="100px" alt=""></section>
+                <section>
+                    <h3>Frederick S.</h3>
+                    <h5>Role: Back-End</h5>
+                    <h5>Component: Server, Routing & Database</h5>
+                </section>
+            </section>
+            <section class="jeremy">
+                <section><img src="../../devportfolio/jeremy.jpg" width="100px" height="100px" alt=""></section>
+                <section>
+                    <h3>Jeremy G.</h3>
+                    <h5>Role: Front-End</h5>
+                    <h5>Component: Forms & Design</h5>
+                </section>
+            </section>
+            <section class="zev">
+                <section><img src="../../devportfolio/zev.jpg" width="100px" height="100px" alt=""></section>
+                <section>
+                    <h3>Zev H.</h3>
+                    <h5>Role: Back-End</h5>
+                    <h5>Component: Map Application</h5>
+                </section>
+            </section>
+
+        </section>
+
+        <!-- FOOTER CONTAINER -->
+        <section class="con-footer">
+            <h3> Lost & Hound &copy; 2019 </h3>
+        </section>
+
+    </section>
+
+    <!--Farkhod added slideshow.js app-->
+    <script src="../../slideshow.js"></script>
+
+  
+    <script src="/homeLogic.js"></script>
+    <script src="https://api.mqcdn.com/sdk/mapquest-js/v1.3.2/mapquest.js"></script>
+    <link type="text/css" rel="stylesheet" href="https://api.mqcdn.com/sdk/mapquest-js/v1.3.2/mapquest.css"/>
+    <script src="https://unpkg.com/leaflet.markercluster@1.0.6/dist/leaflet.markercluster.js"></script>
+    <link type="text/css" rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.0.6/dist/MarkerCluster.css"/>
+    <link type="text/css" rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.0.6/dist/MarkerCluster.Default.css"/>
+    <script type="text/javascript" src="/map.js"></script>
+</body>
+
+</html>
